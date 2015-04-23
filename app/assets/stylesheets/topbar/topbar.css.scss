@@ -7,9 +7,10 @@
 
   .name img {
     display: inline-block;
-    vertical-align: top;
-    height: 45px;
+    vertical-align: middle;
+    height: 70px;
     width: auto;
+
   }
 
   .top-bar-section ul li > a{
@@ -28,9 +29,10 @@
 
   margin-left:20px;
   display: inline-block;
-  vertical-align: top;
-  height: 45px;
+  vertical-align: middle;
+  height: 70px;
   width: auto;
+
 
 }
 
@@ -40,10 +42,10 @@
 
 .top-bar .name .site-title{
   display: inline-block;
-  color: #000000;
+  color: #2E2F30;
   height: 45px;
   padding: 0;
-  margin: 0;
+  margin-right: 20px;
   line-height: 45px;
   font-size: 1.0625rem;
   background: transparent;
@@ -56,6 +58,7 @@
 .top-bar .toggle-topbar.menu-icon a{
   background: transparent;
   color: #000000;
+  border-color: #2E2F30;
 }
 
 .top-bar-section li:not(.has-form) a{
