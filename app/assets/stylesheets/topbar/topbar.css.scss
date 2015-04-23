@@ -11,6 +11,17 @@
     height: 45px;
     width: auto;
   }
+
+  .top-bar-section ul li > a{
+    color:#FFFFFF ;
+    background: #858585 ;
+  }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #e7e7e7;
+    color: #000000;
+  }
+
 }
 
 .name img {
@@ -23,6 +34,10 @@
 
 }
 
+.name a {
+  background: transparent;
+}
+
 .top-bar .name .site-title{
   display: inline-block;
   color: #000000;
@@ -30,11 +45,26 @@
   padding: 0;
   margin: 0;
   line-height: 45px;
-  font-size: 1.0625rem
+  font-size: 1.0625rem;
+  background: transparent;
 }
 
-.h1 .font-family-h1{
-  font-family: "Open Sans",sans-serif;
-  font-style: normal;
-  font-weight: 300;
+.top-bar-section .dropdown li.title h5 a{
+  color: darkgray;
+}
+
+.top-bar .toggle-topbar.menu-icon a{
+  background: transparent;
+  color: #000000;
+}
+
+.top-bar-section li:not(.has-form) a{
+  background: #e7e7e7;
+}
+
+@media only screen and (min-width: 40.063em){
+  .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+    color: #000000;
+    background: #e7e7e7;
+  }
 }
