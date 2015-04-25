@@ -5,3 +5,4 @@ Rails.application.config.assets.precompile += %w( owl-carousel/owl.carousel.min.
 Rails.application.config.assets.precompile += %w( owl-carousel/owl.carousel.css )
 Rails.application.config.assets.precompile += %w( owl-carousel/owl.theme.css )
 Rails.application.config.assets.precompile += %w( owl-carousel/owl.transitions.css )
+Rails.application.config.assets.precompile += %w( application/footer/footer.css )
