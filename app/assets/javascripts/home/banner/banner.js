@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
 
-    $("#owl-demo").owlCarousel({
+    $("#home-banner").owlCarousel({
 
         navigation : false, // Show next and prev buttons
         slideSpeed : 300,
