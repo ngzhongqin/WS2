@@ -1,1 +1,7 @@
 Rails.application.config.assets.precompile += %w( topbar/topbar.css )
+Rails.application.config.assets.precompile += %w( home/banner/banner.js )
+Rails.application.config.assets.precompile += %w( owl-carousel/owl.carousel.js )
+Rails.application.config.assets.precompile += %w( owl-carousel/owl.carousel.min.js )
+Rails.application.config.assets.precompile += %w( owl-carousel/owl.carousel.css )
+Rails.application.config.assets.precompile += %w( owl-carousel/owl.theme.css )
+Rails.application.config.assets.precompile += %w( owl-carousel/owl.transitions.css )
